@@ -1,0 +1,254 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = Hohlyandcraft
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resourcepacks/menu-content/background/1.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-right
+  x = -228
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 77
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Выбор записи
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resourcepacks/menu-content/button-backgrounds/lined.png
+  backgroundnormal = resourcepacks/menu-content/button-backgrounds/transperent.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-right
+  x = -228
+  action = movebutton
+  y = -12
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 59
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Настройка
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resourcepacks/menu-content/button-backgrounds/lined.png
+  backgroundnormal = resourcepacks/menu-content/button-backgrounds/transperent.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-right
+  x = -228
+  action = movebutton
+  y = 10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 39
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = Выход
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resourcepacks/menu-content/button-backgrounds/lined.png
+  backgroundnormal = resourcepacks/menu-content/button-backgrounds/transperent.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resourcepacks/menu-content/button-backgrounds/lined.png
+  backgroundnormal = resourcepacks/menu-content/button-backgrounds/transperent.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-right
+  x = -124
+  action = movebutton
+  y = 51
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 101
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Редактор записей
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resourcepacks/menu-content/button-backgrounds/lined.png
+  backgroundnormal = resourcepacks/menu-content/button-backgrounds/transperent.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = cfe208ad-7736-4901-bf9d-aa358e7080b51722164101616
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = ccd97f6d-0ae9-4149-92af-a52d8bb189e81722164101633
+  y = 318
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 969d691e-e63f-4b8c-9264-e212c82266e61722164101633
+  y = 461
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 373
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = b232654b-bcf5-4b93-b918-1e545f2230f51722164101634
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 133
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 05031602-a660-4c9c-9920-88e6e8c9908c1722164101634
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 7d8f13ac-f0c2-4202-9a87-e0bc0965d9801722164101634
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://sites.google.com/view/gammastudios/hohlyandcraft%btnaction_splitter_fm%
+  backgroundhovered = resourcepacks/menu-content/title/hohlyandcraft.png
+  label = 
+  loopbackgroundanimations = true
+  x = 14
+  width = 274
+  action = addbutton
+  actionid = 6233572c-3b2f-43c2-981a-04cd80c03c6d1722246698029
+  y = -43
+  backgroundnormal = resourcepacks/menu-content/title/HOH.png
+  height = 78
+}
+
